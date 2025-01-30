@@ -22,7 +22,7 @@ export const Header = ({ demoTitle, repoLink }) => (
         <img src="github-logo.png" alt="Ocotocat" className="logo octocat" />
       </a>
     </div>
-    <style jsx>{`
+    <style>{`
       .header {
         display: flex;
         flex: 0 0 auto;

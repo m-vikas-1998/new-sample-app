@@ -8,7 +8,7 @@ export default function RoomNotFound() {
         The room you are trying to join does not exist. Have you created the
         room using the Daily REST API or the dashboard?
       </MessageCard>
-      <style jsx>{`
+      <style>{`
         display: grid;
         align-items: center;
         justify-content: center;

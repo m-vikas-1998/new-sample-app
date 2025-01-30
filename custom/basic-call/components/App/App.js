@@ -26,7 +26,7 @@ export const App = ({ customComponentForState }) => {
           {componentForState()}
           <Modals />
           <Asides />
-          <style jsx>{`
+          <style>{`
             color: white;
             height: 100vh;
             display: flex;

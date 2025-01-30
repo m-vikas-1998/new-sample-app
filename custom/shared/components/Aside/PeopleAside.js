@@ -50,7 +50,7 @@ const PersonRow = ({ participant, isOwner = false }) => (
         </>
       )}
     </div>
-    <style jsx>{`
+    <style>{`
       .person-row {
         display: flex;
         border-bottom: 1px solid var(--gray-light);
@@ -135,7 +135,7 @@ export const PeopleAside = () => {
             <PersonRow participant={p} key={p.id} isOwner={isOwner} />
           ))}
         </div>
-        <style jsx>
+        <style>
           {`
             .people-aside {
               display: block;

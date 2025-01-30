@@ -57,7 +57,7 @@ export const Loader = ({
         />
       </circle>
     </g>
-    <style jsx>{`
+    <style>{`
       svg {
         display: block;
         height: ${size}px;

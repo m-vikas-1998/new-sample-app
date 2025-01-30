@@ -91,7 +91,7 @@ export function Call({ room, setRoom, callFrame, setCallFrame, expiry }) {
             )}
           </CardFooter>
         </Card>
-        <style jsx>{`
+        <style>{`
           .call-container {
             display: flex;
             align-items: center;

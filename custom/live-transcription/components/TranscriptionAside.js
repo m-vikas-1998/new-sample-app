@@ -73,7 +73,7 @@ export const TranscriptionAside = () => {
           </div>
         ))}
       </div>
-      <style jsx>{`
+      <style>{`
         .owner-actions {
           display: flex;
           font-weight: bold;

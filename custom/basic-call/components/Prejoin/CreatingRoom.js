@@ -67,7 +67,7 @@ export const CreatingRoom = ({ onCreated }) => {
         </Card>
       )}
 
-      <style jsx>
+      <style>
         {`
           .creating-room {
             width: 100vw;

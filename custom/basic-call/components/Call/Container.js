@@ -30,7 +30,7 @@ export const Container = ({ children }) => {
       {children}
       {roomComponents}
 
-      <style jsx>{`
+      <style>{`
         .room {
           flex-flow: column nowrap;
           width: 100%;

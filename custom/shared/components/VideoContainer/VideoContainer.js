@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 export const VideoContainer = ({ children }) => (
   <main>
     {children}
-    <style jsx>{`
+    <style>{`
       main {
         flex: 1 1 auto;
         position: relative;

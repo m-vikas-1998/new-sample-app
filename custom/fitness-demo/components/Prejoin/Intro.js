@@ -135,7 +135,7 @@ export const Intro = ({
           </div>
         </form>
       </Card>
-      <style jsx>{`
+      <style>{`
         .intro {
           display: flex;
           gap: 15px;

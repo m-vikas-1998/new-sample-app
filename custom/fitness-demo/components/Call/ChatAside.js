@@ -98,7 +98,7 @@ export const ChatAside = () => {
           Send
         </Button>
       </footer>
-      <style jsx>{`
+      <style>{`
         .emojis {
           position: absolute;
           display: flex;

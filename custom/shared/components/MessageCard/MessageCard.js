@@ -27,7 +27,7 @@ export const MessageCard = ({
         )}
       </CardFooter>
     )}
-    <style jsx>{`
+    <style>{`
       :global(.card.error) {
         border: 3px solid var(--red-default);
       }

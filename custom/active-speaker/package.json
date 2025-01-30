@@ -12,10 +12,10 @@
   "dependencies": {
     "@custom/basic-call": "*",
     "@custom/shared": "*",
-    "next": "12",
+    "next": "^15.1.6",
     "pluralize": "^8.0.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "babel-plugin-module-resolver": "^4.1.0",

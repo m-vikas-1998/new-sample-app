@@ -62,7 +62,7 @@ export const Tray = () => {
       >
         <IconStar />
       </TrayButton>
-      <style jsx>{`
+      <style>{`
         position: relative;
 
         .emojis {

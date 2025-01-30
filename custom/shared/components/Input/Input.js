@@ -8,7 +8,7 @@ const InputContainer = ({ children, prefix, className }) => (
   <div className={className}>
     {prefix && <span>{prefix}</span>}
     {children}
-    <style jsx>{`
+    <style>{`
       position: relative;
       display: flex;
       flex-flow: row;
@@ -185,7 +185,7 @@ export const BooleanInput = ({
         <div />
       </span>
 
-      <style jsx>{`
+      <style>{`
         position: relative;
         display: inline-block;
         width: 48px;

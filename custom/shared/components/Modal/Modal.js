@@ -96,7 +96,7 @@ export const Modal = ({
           </CardFooter>
         )}
       </div>
-      <style jsx>{`
+      <style>{`
         .backdrop {
           background-color: rgba(0, 0, 0, 0);
           bottom: 0;

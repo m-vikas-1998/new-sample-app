@@ -321,7 +321,7 @@ export const GridView = ({
             </Button>
           )}
 
-          <style jsx>{`
+          <style>{`
           .grid {
             align-items: center;
             display: flex;

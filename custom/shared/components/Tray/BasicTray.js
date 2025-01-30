@@ -114,7 +114,7 @@ export const BasicTray = () => {
       <TrayButton label="Leave" onClick={() => leave()} orange>
         <IconLeave />
       </TrayButton>
-      <style jsx>{`
+      <style>{`
         .tray { position: relative };
         .more-options {
           background: var(--background);

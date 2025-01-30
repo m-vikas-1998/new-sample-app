@@ -34,7 +34,7 @@ export default function Index({ isConfigured = false }) {
           />
         )}
       </main>
-      <style jsx>{`
+      <style>{`
         .index-container {
           display: flex;
           flex-direction: column;

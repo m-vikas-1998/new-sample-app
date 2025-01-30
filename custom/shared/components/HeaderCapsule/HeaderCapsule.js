@@ -9,7 +9,7 @@ export const HeaderCapsule = ({ children, variant }) => {
   return (
     <div className={cx}>
       {children}
-      <style jsx>{`
+      <style>{`
         .capsule {
           display: flex;
           align-items: center;

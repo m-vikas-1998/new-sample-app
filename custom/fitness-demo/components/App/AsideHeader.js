@@ -22,7 +22,7 @@ export const AsideHeader = () => {
           <p>Chat</p>
         </div>
       </div>
-      <style jsx>{`
+      <style>{`
         .aside-header {
           display: flex;
           justify-content: center;

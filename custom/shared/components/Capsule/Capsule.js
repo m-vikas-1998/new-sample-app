@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 export const Capsule = ({ children, variant }) => (
   <span className={classNames('capsule', variant)}>
     {children}
-    <style jsx>{`
+    <style>{`
       .capsule {
         display: inline-flex;
         padding: 4px 6px;

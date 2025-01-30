@@ -79,7 +79,7 @@ export const ChatAside = () => {
           </Button>
         </footer>
       </form>
-      <style jsx>{`
+      <style>{`
         .messages-container {
           flex: 1;
           overflow-y: scroll;

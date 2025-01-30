@@ -79,7 +79,7 @@ export const NetworkAside = () => {
         ) : (
           <>Fetching network stats...</>
         )}
-        <style jsx>{`
+        <style>{`
           .panel {
             background-color: var(--gray-wash);
             border-radius: var(--radius-sm);

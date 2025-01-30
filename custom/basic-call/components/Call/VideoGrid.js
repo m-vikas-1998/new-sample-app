@@ -110,7 +110,7 @@ export const VideoGrid = React.memo(
     return (
       <div className="video-grid" ref={containerRef}>
         <div className="tiles">{tiles}</div>
-        <style jsx>{`
+        <style>{`
           .video-grid {
             align-items: center;
             display: flex;

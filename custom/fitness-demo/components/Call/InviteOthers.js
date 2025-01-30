@@ -40,7 +40,7 @@ export const InviteOthers = () => {
           <div className="preview">
             <Tile participant={localParticipant} mirrored aspectRatio={DEFAULT_ASPECT_RATIO} />
           </div>
-          <style jsx>{`
+          <style>{`
             .invite-wrapper {
               display: flex;
               height: 100%;

@@ -24,7 +24,7 @@ export const TrayButton = ({
       </Button>
       <span>{label}</span>
 
-      <style jsx>{`
+      <style>{`
         .tray-button {
           text-align: center;
           user-select: none;
@@ -69,7 +69,7 @@ TrayButton.propTypes = {
 export const Tray = ({ children }) => (
   <footer>
     {children}
-    <style jsx>{`
+    <style>{`
       footer {
         flex: 0 0 auto;
         padding: var(--spacing-xxs) var(--spacing-xs) var(--spacing-xs)

@@ -59,7 +59,7 @@ export const Button = forwardRef(
             {content}
           </button>
         )}
-        <style jsx>{`
+        <style>{`
           .button {
             font-family: var(--font-family);
             font-weight: var(--weight-medium);

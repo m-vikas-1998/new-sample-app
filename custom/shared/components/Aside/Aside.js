@@ -18,7 +18,7 @@ export const Aside = ({ onClose, children }) => (
         <IconClose />
       </Button>
     </div>
-    <style jsx>{`
+    <style>{`
       .call-aside {
         background: white;
         position: relative;

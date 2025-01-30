@@ -25,7 +25,7 @@ export const WaitingParticipantRow = ({ participant }) => {
         </Button>
       </div>
 
-      <style jsx>{`
+      <style>{`
         .waiting-room-row {
           display: flex;
           justify-content: space-between;

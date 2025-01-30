@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 export const Card = ({ children, className, variant }) => (
   <div className={classNames('card', className, variant)}>
     {children}
-    <style jsx>{`
+    <style>{`
 
       .card {
         background: var(--reverse);
@@ -30,7 +30,7 @@ Card.propTypes = {
 export const CardHeader = ({ children }) => (
   <header className="card-header">
     <h2>{children}</h2>
-    <style jsx>{`
+    <style>{`
       h2 {
         font-size: 1.375rem;
         margin: 0px;
@@ -49,7 +49,7 @@ CardHeader.propTypes = {
 export const CardBody = ({ children }) => (
   <div className="card-body">
     {children}
-    <style jsx>{`
+    <style>{`
       .card-body {
         color: var(--text-mid);
       }
@@ -67,7 +67,7 @@ CardBody.propTypes = {
 export const CardFooter = ({ children, divider = false, flex = false }) => (
   <footer className={classNames('card-footer', { divider, flex })}>
     {children}
-    <style jsx>{`
+    <style>{`
       .card-footer {
         display: flex;
       }

@@ -336,7 +336,7 @@ export const ParticipantBar = ({
           <div ref={spaceAfter} style={{ width }} />
         </div>
       )}
-      <style jsx>{`
+      <style>{`
         .sidebar {
           border-left: 1px solid var(--blue-dark);
           flex: none;

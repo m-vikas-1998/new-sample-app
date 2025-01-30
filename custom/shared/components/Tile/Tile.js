@@ -111,12 +111,12 @@ export const Tile = memo(
             )
           )}
         </div>
-        <style jsx>{`
+        <style>{`
           .tile .content {
             padding-bottom: ${100 / aspectRatio}%;
           }
         `}</style>
-        <style jsx>{`
+        <style>{`
           .tile {
             background: var(--blue-dark);
             min-width: 1px;

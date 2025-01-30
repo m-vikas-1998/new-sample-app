@@ -74,7 +74,7 @@ export const ScreensAndPins = ({ items }) => {
           />
         </div>
       ))}
-      <style jsx>{`
+      <style>{`
         div {
           align-items: center;
           display: flex;

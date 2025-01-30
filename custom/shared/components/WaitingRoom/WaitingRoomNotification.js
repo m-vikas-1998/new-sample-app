@@ -113,7 +113,7 @@ export const WaitingRoomNotification = () => {
         <IconWaiting />
       </aside>
       {multipleWaiting ? showMultipleParticipants : showSingleParticipant}
-      <style jsx>{`
+      <style>{`
         :global(.card.waiting-room-notification) {
           position: absolute;
           right: var(--spacing-sm);

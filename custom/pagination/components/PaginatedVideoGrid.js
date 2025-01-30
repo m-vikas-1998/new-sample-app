@@ -315,7 +315,7 @@ export const PaginatedVideoGrid = ({
         <IconArrow />
       </Button>
 
-      <style jsx>{`
+      <style>{`
         .grid {
           align-items: center;
           display: flex;

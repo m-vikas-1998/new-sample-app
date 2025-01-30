@@ -1,5 +1,3 @@
-import fetch from "node-fetch";
-
 export default async function handler(req, res) {
   const { roomName } = req.query;
   const { privacy, expiryMinutes, ...rest } = req.body;

@@ -109,7 +109,7 @@ export const Video = forwardRef(
           ref={videoEl}
           {...props}
         />
-        <style jsx>{`
+        <style>{`
           video {
             opacity: 0;
           }

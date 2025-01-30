@@ -27,7 +27,7 @@ export const ExpiryTimer = ({ expiry }) => {
   return (
     <div className="countdown">
       {secs}
-      <style jsx>{`
+      <style>{`
         .countdown {
           position: fixed;
           top: 0px;

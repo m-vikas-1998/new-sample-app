@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 export const Well = ({ children, variant }) => (
   <div className={classNames('well', variant)}>
     {children}
-    <style jsx>{`
+    <style>{`
       margin-bottom: var(--spacing-md);
       padding: var(--spacing-sm);
       border-radius: var(--radius-sm);

@@ -100,7 +100,7 @@ export const SpeakerView = () => {
         />
       )}
 
-      <style jsx>{`
+      <style>{`
         .speaker-view {
           display: flex;
           height: 100%;

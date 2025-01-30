@@ -101,7 +101,7 @@ export const FlyingEmojisOverlay = () => {
 
   return (
     <div className="flying-emojis" ref={overlayRef}>
-      <style jsx>{`
+      <style>{`
         .flying-emojis {
           position: fixed;
           top: 0px;

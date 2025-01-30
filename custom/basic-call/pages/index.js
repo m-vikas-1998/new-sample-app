@@ -96,7 +96,7 @@ export default function Index({
           );
         })()}
 
-        <style jsx>{`
+        <style>{`
           height: 100vh;
           display: grid;
           grid-template-columns: 640px;

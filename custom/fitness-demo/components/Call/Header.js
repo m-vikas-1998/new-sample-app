@@ -71,7 +71,7 @@ export const Header = () => {
           </HeaderCapsule>
         )}
 
-        <style jsx>{`
+        <style>{`
           .room-header {
             display: flex;
             flex: 0 0 auto;

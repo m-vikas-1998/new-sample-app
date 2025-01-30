@@ -76,7 +76,7 @@ export const Audio = () => {
     <Portal key="AudioTracks">
       <div className="audioTracks">
         {tracksComponent}
-        <style jsx>{`
+        <style>{`
           .audioTracks {
             position: absolute;
             visibility: hidden;

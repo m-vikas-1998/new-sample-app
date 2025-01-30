@@ -9,7 +9,7 @@ export const TrayButton = ({ children, label, onClick, orange = false }) => (
     </Button>
     <span>{label}</span>
 
-    <style jsx>{`
+    <style>{`
       .tray-button {
         text-align: center;
         user-select: none;

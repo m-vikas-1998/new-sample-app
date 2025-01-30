@@ -140,7 +140,7 @@ export const HairCheck = () => {
         ) : (
           <span>Waiting for host to grant access</span>
         )}
-        <style jsx>{`
+        <style>{`
           .waiting {
             display: flex;
             flex-direction: column;
@@ -230,7 +230,7 @@ export const HairCheck = () => {
           </form>
         </div>
 
-        <style jsx>{`
+        <style>{`
           .haircheck {
             position: relative;
             display: flex;

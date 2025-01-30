@@ -6,7 +6,7 @@ export const Field = ({ label, children }) => (
     {label && <div className="label">{label}</div>}
     <div className="field">{children}</div>
 
-    <style jsx>{`
+    <style>{`
       .field {
         margin-bottom: var(--spacing-sm);
       }
