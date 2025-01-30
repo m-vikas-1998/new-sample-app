@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback, useEffect } from 'react';
 import getDemoProps from '@custom/shared/lib/demoProps';
 import { useRouter } from 'next/router';
 import PropTypes from 'prop-types';
@@ -116,6 +116,10 @@ export default function Index({
     setFetching(false);
   }
 
+  useEffect(() => {
+    console.log('#testing DAILY_API_KEY', process.env.DAILY_API_KEY)
+    console.log('#testing DAILY_DOMAIN', process.env.DAILY_DOMAIN)
+  }, [])
   /**
    * Main call UI
    */

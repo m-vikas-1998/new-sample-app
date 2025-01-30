@@ -19,11 +19,7 @@ export default async function handler(req, res) {
       options
     );
 
-    console.log('#testing dailyRes', dailyRes)
-
     const response = await dailyRes.json();
-    console.log('#testing response', response)
-    console.log('#testing DAILY_API_KEY', process.env.DAILY_API_KEY)
     return res.status(200).json(response);
   }
 

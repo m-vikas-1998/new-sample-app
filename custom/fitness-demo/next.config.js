@@ -21,6 +21,11 @@
 // next.config.js
 
 module.exports = {
+  env: {
+    DAILY_API_KEY: process.env.DAILY_API_KEY,
+    DAILY_DOMAIN: process.env.DAILY_DOMAIN
+  },
+
   reactStrictMode: true,
 
   // Enable CSS support (CSS Modules enabled by default for `.module.css` files)
